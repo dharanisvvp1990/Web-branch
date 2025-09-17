@@ -4,7 +4,11 @@
         <groupId>in.shan5a6</groupId>
         <artifactId>myweb</artifactId>
         <packaging>war</packaging>
+<<<<<<< HEAD
         <version>10.112.180</version>
+=======
+        <version>022222222.12.1222222228</version>
+>>>>>>> 8f2a82b (10.x version)
         <name>myweb Maven Webapp</name>
         <url>http://maven.apache.org</url>
         <properties>
