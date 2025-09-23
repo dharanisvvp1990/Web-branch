@@ -1,130 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="in.shan5a6.myweb.controller.CalculatorTest" time="0.008" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="in.shan5a6.myweb.controller.CalculatorTest" time="0.003" errors="0" skipped="0">
   <properties>
-    <property name="JOB_NAME" value="build-job"/>
-    <property name="java.vendor" value="Red Hat, Inc."/>
-    <property name="PWD" value="/home/dharani-slave"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://74.235.202.15:8080/job/build-job/5/display/redirect?page=tests"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
-    <property name="PATH" value="/home/dharani-slave/.local/bin:/home/dharani-slave/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/sonar-scanner/bin:/usr/local/sonar-scanner/bin:/usr/local/sonar-scanner/bin:/usr/local/sonar-scanner/bin:/usr/local/sonar-scanner/bin"/>
-    <property name="HUDSON_SERVER_COOKIE" value="5089555867275253"/>
-    <property name="XDG_SESSION_TYPE" value="tty"/>
-    <property name="POM_ARTIFACTID" value="myweb"/>
-    <property name="os.name" value="Linux"/>
-    <property name="EXECUTOR_NUMBER" value="3"/>
-    <property name="XDG_DATA_DIRS" value="/home/dharani-slave/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="myweb Maven Webapp"/>
-    <property name="XDG_RUNTIME_DIR" value="/run/user/1000"/>
-    <property name="NODE_LABELS" value="slave dharani-slave"/>
-    <property name="java.runtime.version" value="17.0.16+8-LTS"/>
-    <property name="user.name" value="dharani-slave"/>
-    <property name="SSH_CONNECTION" value="192.168.1.4 39692 192.168.2.4 22"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="SSH_CLIENT" value="192.168.1.4 39692 22"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="build-job"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://74.235.202.15:8080/job/build-job/5/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#5"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-17.0.16.0.8-2.el9.x86_64/lib"/>
-    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="9bc58329ece040dfe843800b4591bfa24636dea5"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.version" value="17.0.16"/>
-    <property name="user.timezone" value="Etc/UTC"/>
-    <property name="SELINUX_ROLE_REQUESTED" value=""/>
-    <property name="XDG_SESSION_CLASS" value="user"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="dharani-slave"/>
-    <property name="BUILD_ID" value="5"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="SHELL" value="/bin/bash"/>
-    <property name="maven.conf" value="/home/dharani-slave/tools/hudson.tasks.Maven_MavenInstallation/maven/conf"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="61.0"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="US"/>
-    <property name="securerandom.source" value="file:/dev/./urandom"/>
-    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-17.0.16.0.8-2.el9.x86_64"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="LESSOPEN" value="||/usr/bin/lesspipe.sh %s"/>
-    <property name="os.version" value="5.14.0-427.61.1.el9_4.x86_64"/>
-    <property name="RUN_DISPLAY_URL" value="http://74.235.202.15:8080/job/build-job/5/display/redirect"/>
-    <property name="POM_VERSION" value="1.11.11"/>
-    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
-    <property name="path.separator" value=":"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://74.235.202.15:8080/job/build-job/5/display/redirect?page=artifacts"/>
-    <property name="BASH_FUNC_which%%" value="() {  ( alias;
- eval declare -f ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
-}"/>
-    <property name="java.vm.version" value="17.0.16+8-LTS"/>
-    <property name="GIT_PREVIOUS_COMMIT" value="9bc58329ece040dfe843800b4591bfa24636dea5"/>
-    <property name="JOB_DISPLAY_URL" value="http://74.235.202.15:8080/job/build-job/display/redirect"/>
-    <property name="SHLVL" value="0"/>
-    <property name="SELINUX_USE_CURRENT_RANGE" value=""/>
-    <property name="_" value="/usr/bin/java"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.specification.maintenance.version" value="1"/>
-    <property name="LOGNAME" value="dharani-slave"/>
-    <property name="POM_PACKAGING" value="war"/>
-    <property name="HOME" value="/home/dharani-slave"/>
-    <property name="POM_GROUPID" value="in.shan5a6"/>
-    <property name="user.home" value="/home/dharani-slave"/>
-    <property name="BUILD_TAG" value="jenkins-build-job-5"/>
-    <property name="JENKINS_SERVER_COOKIE" value="5089555867275253"/>
-    <property name="HUDSON_URL" value="http://74.235.202.15:8080/"/>
-    <property name="java.version.date" value="2025-07-15"/>
-    <property name="DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1000/bus"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="XDG_SESSION_ID" value="5"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="java.vendor.url" value="https://www.redhat.com/"/>
-    <property name="java.vm.vendor" value="Red Hat, Inc."/>
-    <property name="SELINUX_LEVEL_REQUESTED" value=""/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="maven.home" value="/home/dharani-slave/tools/hudson.tasks.Maven_MavenInstallation/maven"/>
-    <property name="java.class.path" value="/home/dharani-slave/maven35-agent.jar:/home/dharani-slave/tools/hudson.tasks.Maven_MavenInstallation/maven/boot/plexus-classworlds-2.6.0.jar:/home/dharani-slave/tools/hudson.tasks.Maven_MavenInstallation/maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /home/dharani-slave/tools/hudson.tasks.Maven_MavenInstallation/maven /home/dharani-slave/remoting.jar /home/dharani-slave/maven35-interceptor.jar /home/dharani-slave/maven3-interceptor-commons.jar 38317"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.version" value="17.0.16+8-LTS"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-17.0.16.0.8-2.el9.x86_64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/jenkins-slave/git/Web-branch/Dharani-cicd-project"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="java.vendor.url" value="https://www.redhat.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.vm.specification.version" value="17"/>
-    <property name="M2_HOME" value="/home/dharani-slave/tools/hudson.tasks.Maven_MavenInstallation/maven"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="CI" value="true"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
-    <property name="PATH+MAVEN" value="/home/dharani-slave/tools/hudson.tasks.Maven_MavenInstallation/maven/bin"/>
-    <property name="java.vendor.url.bug" value="https://access.redhat.com/support/cases/"/>
-    <property name="OLDPWD" value="/home/dharani-slave"/>
-    <property name="BUILD_URL" value="http://74.235.202.15:8080/job/build-job/5/"/>
+    <property name="user.dir" value="/home/jenkins-slave/git/Web-branch/Dharani-cicd-project"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.16+8-LTS"/>
     <property name="os.arch" value="amd64"/>
-    <property name="user.dir" value="/home/dharani-slave/workspace/build-job/Dharani-cicd-project"/>
-    <property name="JOB_URL" value="http://74.235.202.15:8080/job/build-job/"/>
-    <property name="MOTD_SHOWN" value="pam"/>
-    <property name="MAVEN_HOME" value="/home/dharani-slave/tools/hudson.tasks.Maven_MavenInstallation/maven"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="5"/>
-    <property name="JENKINS_URL" value="http://74.235.202.15:8080/"/>
-    <property name="GIT_BRANCH" value="origin/main"/>
-    <property name="GIT_COMMIT" value="54726e12d0f16dafa60930d692a11596a0f9c191"/>
-    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.14.0-427.61.1.el9_4.x86_64"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/jenkins-slave"/>
+    <property name="user.timezone" value="Etc/UTC"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="maven3.interceptor" value="/home/dharani-slave/maven35-interceptor.jar"/>
-    <property name="WORKSPACE_TMP" value="/home/dharani-slave/workspace/build-job@tmp"/>
-    <property name="WORKSPACE" value="/home/dharani-slave/workspace/build-job"/>
-    <property name="maven3.interceptor.common" value="/home/dharani-slave/maven3-interceptor-commons.jar"/>
     <property name="java.specification.version" value="17"/>
-    <property name="which_declare" value="declare -f"/>
+    <property name="user.name" value="jenkins-slave"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-17.0.16.0.8-2.el9.x86_64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.16"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.vendor.url.bug" value="https://access.redhat.com/support/cases/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="(Red_Hat-17.0.16.0.8-1)"/>
-    <property name="USER" value="dharani-slave"/>
-    <property name="GIT_URL" value="https://github.com/dharanisvvp1990/Web-branch.git"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
   </properties>
   <testcase classname="in.shan5a6.myweb.controller.CalculatorTest" name="testAdd" time="0.003"/>
-  <testcase classname="in.shan5a6.myweb.controller.CalculatorTest" name="testMultiply" time="0.005"/>
+  <testcase classname="in.shan5a6.myweb.controller.CalculatorTest" name="testMultiply" time="0"/>
 </testsuite>

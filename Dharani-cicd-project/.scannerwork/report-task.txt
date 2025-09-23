@@ -1,8 +1,8 @@
-organization=my-java-app-1
-projectKey=my-java-app-1_javabuild-test
+organization=second-project
+projectKey=second-project_2nd-java
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.67297
+serverVersion=8.0.0.67529
 branch=master
-dashboardUrl=https://sonarcloud.io/dashboard?id=my-java-app-1_javabuild-test&branch=master
-ceTaskId=AZlc6BauIau_e1C7n-eX
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZlc6BauIau_e1C7n-eX
+dashboardUrl=https://sonarcloud.io/dashboard?id=second-project_2nd-java&branch=master
+ceTaskId=AZl17dwi3IYJYqGQVvVn
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZl17dwi3IYJYqGQVvVn
